@@ -4,5 +4,5 @@ jobs:
   print:
     runs-on: ubuntu-latest
     steps:
-      _ name: print to console
-        run: echo Hello GH Actions!
+      - name: print to console
+        run: echo "Hello GH Actions!"
