@@ -9,3 +9,7 @@ jobs:
     steps:
       - name: print to console
         run: echo "Hello GH Actions!"
+      - name: print a few lines
+        run: 
+          echo "first line!"
+          echo "second line!"
